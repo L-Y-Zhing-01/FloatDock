@@ -1,0 +1,12 @@
+# 浮坞 FloatDock 的构建期依赖。
+#
+# 运行时不需要任何第三方包：全部功能只用标准库（ctypes / tkinter /
+# threading / queue / hashlib / tempfile）与 Win32 API 实现，也没有网络调用。
+# 目标机器连 Python 都不用装 —— 解释器与 Tcl/Tk 由 PyInstaller 打进安装包。
+
+# 打包安装程序：installer/build.py 直接调用它的命令行入口
+pyinstaller==6.18.0
+
+# 可选：installer/verify_gui.py 与 tools/ 下部分校验脚本用它抓窗口截图
+# （PrintWindow 取像素后存 PNG）。不打包、不分发时可以不装。
+# pillow

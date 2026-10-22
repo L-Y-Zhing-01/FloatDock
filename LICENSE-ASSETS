@@ -1,0 +1,73 @@
+浮坞 FloatDock · 资源授权说明（License for Assets）
+====================================================
+
+本文件管的是**美术资源与名称**，不管代码。代码的使用条件见 LICENSE（MIT）。
+
+本文件与 LICENSE 是两份独立的授权，各自管各自的对象：
+
+    LICENSE          →  *.py 源码、随源码分发的文档
+    LICENSE-ASSETS   →  应用图标、赞赏码图片、项目名称
+
+一、适用范围
+------------
+
+    floatdock.ico    应用图标（窗口 / 任务栏 / 托盘 / 安装程序 / exe 资源）
+    donation.png     赞赏码图片
+    「浮坞」「FloatDock」  项目名称与产品标识
+
+二、允许
+--------
+
+1. 原样分发。为运行、备份、镜像、打包本项目的**未修改版本**，可以复制并随附
+   上述资源一并分发，无需另行申请。
+2. 介绍与评论。为介绍、评测、教学、新闻报道本项目，可以在文章、视频、演示
+   文稿中展示图标与界面截图。
+3. 派生项目。基于本项目代码的修改版，**可以继续使用原图标**，前提是同时满足
+   第四条全部条件。
+
+三、不允许
+----------
+
+1. **单独提取**。不得把图标或赞赏码从本项目中单独取出，用于其他软件、其他
+   项目、素材库、图标包、NFT 或任何商品。
+2. **冒充官方**。不得以「浮坞」「FloatDock」或易混淆的名称、图标发布修改版，
+   使他人误认为该版本由原作者发布或背书。
+3. **商标性使用**。不得将上述名称或图标记为商标、服务标记、商号使用，也不得
+   申请注册相同或近似的商标。
+4. **赞赏码挪用**。`donation.png` 是作者本人的收款码。除随本项目官方发行版
+   原样分发外，不得复制、修改或用于任何其他用途；它不是商品或服务的对价，
+   也不构成任何形式的募捐。
+
+四、修改版继续使用原图标的条件
+------------------------------
+
+同时满足以下三条即可，无需书面许可：
+
+1. 保留 `LICENSE` 与 `NOTICE`，并在「关于」或等价位置注明这是**修改版**；
+2. 不使用「浮坞」「FloatDock」作为修改版的名称或主标识；
+3. 不暗示原作者为修改版提供支持或背书。
+
+五、图标来源
+------------
+
+应用图标由 AI 绘图工具 **WorkBuddy** 生成，经作者定稿修订后使用。作者仅对
+自己定稿、修改的部分主张权利，不对 AI 生成的原图主张排他性著作权。详见
+`NOTICE`。
+
+六、免责
+--------
+
+上述资源按「现状」提供，不附带任何明示或默示担保。作者不对使用上述资源
+引起的任何索赔、损害或其他责任负责。
+
+---
+
+This file governs the application icon, the donation QR image and the project
+name only. Source code is licensed under the MIT License (see `LICENSE`).
+
+You may redistribute these assets unmodified as part of an unmodified copy of
+this project, and use them to describe or review the project. You may not
+extract them for use in other software, present a modified build as the
+official release, or register them as trademarks. Modified builds may keep the
+original icon only if they keep `LICENSE` and `NOTICE`, drop the
+"浮坞 / FloatDock" name, and do not imply endorsement by the original author.

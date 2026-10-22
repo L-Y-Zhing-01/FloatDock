@@ -1,0 +1,23 @@
+# 运行期生成：本机配置与调试日志
+# config.json 里有窗口坐标、热键、透明度等个人设置，debug.log 是 --debug 的输出
+config.json
+debug.log
+
+# Python 字节码
+__pycache__/
+*.py[cod]
+
+# 本地沙箱：临时测试脚本、历史备份、冒烟截图，不属于产品
+_sandbox/
+
+# 开发工具的项目记忆与本地产物，不属于产品
+.workbuddy/
+
+# 发布产物与归档 zip：体积大，随 Release 分发，不进版本库
+发布/
+归档/
+
+# PyInstaller 中间产物
+build/
+dist/
+*.spec

@@ -1,0 +1,55 @@
+浮坞 FloatDock · NOTICE
+=======================
+
+本文件记录第三方组件与外部素材的来源，供分发时一并保留。
+
+一、本体
+--------
+
+    浮坞 FloatDock
+    Copyright (c) 2026 难上南山
+    MIT License，全文见 LICENSE
+    美术资源与名称另见 LICENSE-ASSETS
+
+二、随安装包分发的第三方组件
+----------------------------
+
+本项目的安装包用 PyInstaller 打包，会把 Python 解释器与 Tcl/Tk 一并装进
+`_internal/`，目标机器不需要预装 Python。这些组件不是本项目编写，各自仍
+适用原有的许可：
+
+    Python 3.14.3
+        Python Software Foundation License Version 2 (PSF-2.0)
+        https://docs.python.org/3/license.html
+
+    Tcl/Tk 8.6（tkinter 的运行时）
+        BSD-style license，见 Tcl/Tk 发行包中的 license.terms
+        https://www.tcl.tk/software/tcltk/license.html
+
+    PyInstaller 6.18.0（仅构建期使用；其 bootloader 会被打包进 exe）
+        GPL-2.0-or-later，附 bootloader 例外条款，允许以任何许可分发打包产物
+        https://pyinstaller.org/en/stable/license.html
+
+    其余随包 DLL（VCRUNTIME140.dll 等）
+        由 CPython 官方发行版携带，按 PSF-2.0 及其附带的第三方声明分发。
+
+本项目源码本身不包含上述组件的代码，仅调用其公开接口。
+
+三、外部素材
+------------
+
+应用图标（`floatdock.ico`）
+    由 AI 绘图工具 **WorkBuddy** 生成，经作者（难上南山）定稿、修订后使用。
+    本节仅声明来源与使用事实：作者对自己定稿与修改的部分主张权利，不对 AI
+    生成的原图主张排他性著作权。图标的使用条件见 LICENSE-ASSETS。
+
+赞赏码（`donation.png`）
+    作者本人的收款二维码，仅用于接收自愿赞赏。不是商品或服务的对价，不构成
+    任何形式的募捐。
+
+四、没有第三方代码依赖
+----------------------
+
+运行时**不依赖任何第三方 Python 包**：全部功能仅用标准库（`ctypes`、
+`tkinter`、`threading`、`queue`、`hashlib`、`tempfile` 等）与 Win32 API 实现，
+也没有任何网络调用。构建期只需 PyInstaller，见 `requirements-build.txt`。

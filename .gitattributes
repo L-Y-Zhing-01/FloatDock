@@ -1,0 +1,8 @@
+# 统一行尾：源码与文档一律 LF 入库，检出时由 Git 按平台处理
+* text=auto eol=lf
+
+# 二进制资源：不要当文本比对
+*.png binary
+*.ico binary
+*.exe binary
+*.zip binary
